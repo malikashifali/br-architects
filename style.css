@@ -69,3 +69,14 @@ header {
     }
 }
 
+.contact-section {
+    & p {
+        font-size: 13px;
+    }
+
+    & .btn:hover {
+        background-color: #ccc !important;
+        color: black !important;
+    }
+}
+
