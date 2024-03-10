@@ -40,3 +40,32 @@ header {
         }
     }
 }
+
+/* about section  */
+
+.about-section {
+    & p {
+        font-size: 13px;
+    }
+
+    & .card {
+        & h4 {
+            font-size: 18px;
+        }
+
+        & h6 {
+            font-size: 13px;
+        }
+
+        & p {
+            font-size: 12px;
+        }
+
+        & button:hover {
+            background-color: #bebebe !important;
+
+        }
+
+    }
+}
+
