@@ -22,3 +22,21 @@ header {
         background-color: #ccc;
     }
 }
+
+/* hero section  */
+
+.hero-section {
+    background-image: url("./Assets/architect.jpg");
+    min-height: 95vh;
+    background-position: center;
+    background-size: cover;
+
+    & h3 {
+        letter-spacing: 2px;
+        font-weight: 400;
+
+        & span {
+            opacity: 85%;
+        }
+    }
+}
